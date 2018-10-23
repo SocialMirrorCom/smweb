@@ -7,8 +7,307 @@
   	<!--<link rel="stylesheet" href="./css/normalize.css">
   	<link rel="stylesheet" href="./css/style.css">-->
 	<title>Social Mirror Digital Agency</title>
+
 </head>
 <body>
+	<header class="page-header">
+      <nav class="page-header__main-nav main-nav main-nav--closed main-nav--nojs">
+        <div class="page-header__logo">
+          <a href="#">
+            <!--<picture>
+              <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg">
+              <source media="(min-width: 567px)" srcset="img/logo-tablet.svg">-->
+              <img src="img/logo-orange.png" width="182" height="132" alt="Social Mirror Digital Agency">
+            <!--</picture>-->
+          </a>
+        </div>
+        <button class="main-nav__toggle" type="button" aria-label="Open the menu"></button>
+        <ul class="main-nav__list site-list">
+              <li class="site-list__item"><a class="site-list__link" href="landing.html">Web Landing page</a></li>
+              <li class="site-list__item"><a class="site-list__link" href="inbound.html">InBound Marketing</a></li>
+              <li class="site-list__item"><a class="site-list__link" href="social.html">Social Media</a></li>
+              <li class="site-list__item"><a class="site-list__link" href="google.html">Google AdWords</a></li>
+              <li class="site-list__item"><a class="site-list__link" href="email.html">E-mail marketing</a></li>
+              <li class="site-list__item"><a class="site-list__link" href="blog.html">Blog</a></li>
+              <li class="site-list__item"><a class="site-list__link" href="contacts.html">Contacts</a></li>
+            </ul>
+          
+            <ul class="main-nav__list language-list">
+              <button class="language-list__toggle" type="button" aria-label="Choose the language"></button>
+              <li class="language-list__item"><a href="" class="language-list__link">EN</a></li>
+              <li class="language-list__item"><a href="" class="language-list__link">RUS</a></li>
+              <li class="language-list__item"><a href="" class="language-list__link">PT</a></li>
+            </ul>          
+      </nav>
+    </header>
+    <main class="page-main">
+    	<section class="page-main__content">
+    		<h1>Social Mirror is  a digital marketing agency</h1>
+    		<p>People love buying from people. We are geeks, who love people. We create i-marketing for people with empathy.</p>
+    		<form method="post"
+        		enctype="multipart/form-data"
+        		action="https:"
+        		autocomplete="off" class="page-main__form form">
+        		<h3 class="form__info">Leave your contacts and our manager will give you more details</h3>
+
+              	<ul class="form__inputs">
+                <li class="text-input form__input-wrap">
+                  <input type="text" class="text-input__input" name="name" id="form__name" placeholder="Name" minlength="2" maxlength="40" required>
+                  <label for="form__name" class="text-input__label"></label>
+                </li>
+
+                <li class="text-input form__input-wrap">
+                  <input type="e-mail" class="text-input__input" name="email" id="form__email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                  <label for="form__email" class="text-input__label"></label>
+                </li>
+
+                <li class="input-btn">
+                    <input class="input-btn__input visually-hidden input-btn__input--radio" name="policy" value="private-policy" type="radio" id="private-policy" checked>
+                    <label class="input-btn__label input-btn__label--radio" for="private-policy">I accept the terms of the <a href="">private policy</a></label>
+                  </li>
+            	</ul>
+            	<button class="form__submit-btn submit-btn" type="submit">Yes, i need more information</button>
+    		</form>
+    	</section>
+    	<section class="page-main__advantages advantages">
+    		<div class="advantages__wrapper">
+    			<p class="advantages__desctiption">Our team creates profitable <a class="advantages__link" href="landing.html">landing pages</a>, improves your page's conversion through <a class="advantages__link" href="google.html">SEO, Web Analytics and Google AdWords</a>, shows the market your unique expertise with <a class="advantages__link" href="inbound.html">inbound marketing</a>, warms your auditory and increases it's loality through <a class="advantages__link" href="email.html">e-mail marketing</a> and attracts new customers from <a class="advantages__link" href="social.html">social media.</a></p>
+    			<h2 class="visually-hidden">Advantages of Social Mirror Digital Agency</h2>
+    			<ul class="advantages__list">
+    				<li class="advantages__item">
+    					<h3 class="advantages__heading">International expertise</h3>
+    					<p class="advantages__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi</p>
+    				</li>
+    				<li class="advantages__item">
+    					<h3 class="advantages__heading">People oriented approach</h3>
+    					<p class="advantages__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi</p>
+    				</li>
+    				<li class="advantages__item">
+    					<h3 class="advantages__heading">Uptodate Dev  tools</h3>
+    					<p class="advantages__text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi</p>
+    				</li>
+    			</ul>
+    		</div>
+    	</section>
+    	<section class="page-main__scheme scheme">
+    		<div class="scheme__wrapper">
+    		<h2 class="scheme__headler">i-marketing is simple, is like 1, 2, 3, 4)</h2>
+    		<ul class="scheme__list">
+    			<li class="scheme__item"><span>1</span>Target audience portrait - we profoundly study your business and niche, positioning on market, your competitors, etc. and create the portrait of people, whom you can make happy with your product or service.</li>
+    			<li class="scheme__item"><span>2</span>Choose channels  - as like fishing - proper time, proper place, good skills and rod  - are essential to provide quality traffic.</li>
+    			<li class="scheme__item"><span>3</span>Web site - we create Web site or Landing page with attention to details because every it’s element - design, content, usability, service or even small feature  - has to persuade people fulfil target actions.</li>
+    			<li class="scheme__item"><span>4</span>Analyse it - we analyse and make tests before and after each our step, always improving our solutions.</li>
+    		</ul>
+    		<div class="shceme__top">
+    			<p class="scheme__title">Target audience</p>
+    			<ul class="scheme__target">
+    				<li class="scheme__target-item"><img src="img/boy.png" alt="A boy with beard" width="81" height="147" tabindex="0"></li>
+    				<li class="scheme__target-item"><img src="img/girl.png" alt="A pretty coding girl" width="85" height="120" tabindex="0"></li>
+    				<li class="scheme__target-item"><img src="img/monkey.png" alt="A funny monkey" width="123" height="132" tabindex="0"></li>
+    			</ul>	
+    			<ul class="scheme__services">
+    				<li class="scheme__services-item"><a href="" class="scheme__services-link scheme__title">InBound Marketing</a></li>
+    				<li class="scheme__services-item"><a href="" class="scheme__services-link scheme__title">Social Media</a></li>
+    				<li class="scheme__services-item"><a href="" class="scheme__services-link scheme__title">Google AdWords</a></li>
+    				<li class="scheme__services-item"><a href="" class="scheme__services-link scheme__title">E-mail marketing</a></li>
+    			</ul>
+    			<a href="landing.html" class="scheme__services-link">
+    				<img src="img/web.jpg" alt="Attractive web site on desktop, tablet and mobile phone devices" class="scheme__image" width="632" height="333" tabindex="0">
+    				<p class="scheme__title">Web Site/ Landing Page</p>
+    			</a>
+    		</div>
+    		<div class="scheme__bottom">
+    			<p class="scheme__title">Target Actions</p>
+    			<ul class="scheme__action-list">
+    				<li class="scheme__action-item">Call</li>
+    				<li class="scheme__action-item">Download</li>
+    				<li class="scheme__action-item">Subscribe</li>
+    				<li class="scheme__action-item">Active viewing</li>
+    				<li class="scheme__action-item">Put in cart</li>
+    				<li class="scheme__action-item">Brief</li>
+    				<li class="scheme__action-item">Buy</li>
+    			</ul>
+    		</div>
+    		</div>
+    	</section>
+    	<section class="page-main__brief">
+    		<div class="brief__wrapper">
+    			<p class="brief__text">All businesses like people who create and run them are different. 
+					We don't apply the same approach for everyone and all our solutions are individual.
+					Want to create a unique iMarketing scheme for your company, brief us:</p>
+    			<h2 class="brief__heading">Brief us</h2>
+    			<p class="brief__calltoaction">Reach out with your contact details and a top line brief. 
+					One of our specialists will be in touch within 24 hours.</p>
+    			<form method="post"
+        		enctype="multipart/form-data"
+        		action="https:"
+        		autocomplete="off" class="brief__form brief-form">
+
+              	<ul class="brief-form__inputs">
+                <li class="text-input brief-form__input-wrap">
+                  <input type="text" class="text-input__input" name="name" id="brief-form__name" placeholder="Name" minlength="2" maxlength="40" required>
+                  <label for="brief-form__name" class="text-input__label"></label>
+                </li>
+
+                <li class="text-input brief-form__input-wrap">
+                  <input type="tel" class="text-input__input" name="phone" id="brief-form__phone" placeholder="Phone" required>
+                  <label for="brief-form__name" class="text-input__label"></label>
+                </li>
+
+                <li class="text-input brief-form__input-wrap">
+                  <input type="e-mail" class="text-input__input" name="email" id="brief-form__email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                  <label for="brief-form__email" class="text-input__label"></label>
+                </li>
+
+				<li class="text-input brief-form__input-wrap">
+	                <label>
+	                  <span class="visually-hidden">Objectives description</span>
+	                  <textarea name="objectives-description" class="brief-form__textarea" placeholder="Objectives"></textarea>
+	                </label>
+            	</li>
+
+                <li class="input-btn">
+                    <input class="input-btn__input visually-hidden input-btn__input--radio" name="policy" value="private-policy" type="radio" id="private-policy" checked>
+                    <label class="input-btn__label input-btn__label--radio" for="private-policy">I accept the terms of the <a href="">private policy</a></label>
+                  </li>
+            	</ul>
+            	<button class="brief__submit-btn submit-btn" type="submit">Let's start</button>
+    		</form>
+    		</div>
+    	</section>
+    	<section class="page-main__reviews reviews">
+        <div class="reviews__wrapper slider">
+          <div class="reviews__top">
+            <h2 class="reviews__title">Good people share their  opinion about us</h2>
+          </div>
+          <div class="reviews__list slider__list">
+            <blockquote class="reviews__item slider__item">
+            	<div class="slider__image">
+            		<img src="img/koroleva.jpg" alt="Ekaterina Koroleva CEO ACTIVE GROUP marketing agency" width="345" height="514">
+            	</div>
+            	<div class="slider__text">
+            		<p class="reviews__author-name">Ekaterina Koroleva</p>
+              		<p class="reviews__job-title">COE Active Group</p>
+              		<p class="reviews__company-website"><a href="https://active-group.ru">www.active-group.ru</a></p>
+              		<p class="reviews__review-title">They taught us to be helpful</p>
+              		<p class="reviews__text">
+						We worked closely with Social Mirror team creating and launching 
+						inbound marketing for in-store marketing agency Active Group. Guys shared our enthusiasm 
+						and intention to be helpful for people who are already working or just preparing 
+						to start their careers in marketing communications area. So in short period Social Mirror worked 
+						out inbound marketing strategy, semantic analysis of our website and niche, content plan, 
+						wrote first articles for us and provided their spread in social media. It is a great start and 
+						we could not have been happier
+					</p>
+            	</div>             
+            </blockquote>
+          </div>
+          <div class="reviews__toggles slider__toggles">
+            <button class="reviews__toggle reviews__toggle--prev" type="button" aria-label="Предыдущий отзыв">
+              <svg class="reviews__toggle-image" width="50" height="27"><use xlink:href="#icon-left-arrow"></use></svg>
+            </button>
+            <button class="reviews__toggle reviews__toggle--next" type="button" aria-label="Следующий отзыв">
+              <svg class="reviews__toggle-image" width="50" height="27"><use xlink:href="#icon-right-arrow"></use></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="page-main__clients clients">
+      	<h2 class="clients__heading">We work with amazing people from</h2>
+      	<div class="clients__wrapper slider">
+      	<ul class="clients__list slider__list">
+      		<li class="client__item slider__item"><img src="img/active-group.png" alt="ACTIVE GROUP marketing agency" class="client__image" width="147" height="54"></li>
+      		<li class="client__item slider__item"><img src="img/villa.png" alt="VILLA Art&Wood" class="client__image" width="115" height="103"></li>
+      		<li class="client__item slider__item"><img src="img/elizaveta.png" alt="Elizaveta" class="client__image" width="137" height="122"></li>
+      		<li class="client__item slider__item"><img src="img/beluga.png" alt="Beluga Group" class="client__image" width="193" height="193"></li>
+      		<li class="client__item slider__item"><img src="img/torres.png" alt="Torres brandy" class="client__image" width="150" height="126"></li>
+      	</ul>
+      	<div class="reviews__toggles slider__toggles">
+            <button class="reviews__toggle reviews__toggle--prev" type="button" aria-label="Предыдущий отзыв">
+              <svg class="reviews__toggle-image" width="50" height="27"><use xlink:href="#icon-left-arrow"></use></svg>
+            </button>
+            <button class="reviews__toggle reviews__toggle--next" type="button" aria-label="Следующий отзыв">
+              <svg class="reviews__toggle-image" width="50" height="27"><use xlink:href="#icon-right-arrow"></use></svg>
+            </button>
+          </div>
+      </div>
+      </section>
+      <section class="page-main__blog blog">
+      	<div class="blog__wrapper">
+      		<h2 class="blog__heading">Learn more professional tips with us</h2>
+      		<div class="blog__articles">
+      			<ul class="blog__list">
+      				<li class="blog__item">
+      					<p class="blog__label blog__label--new">New</p>
+      					<img src="img/article-image1.jpg" alt="" class="blog__image" width="242" height="161">
+      					<p class="blog__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed d</p>
+      					<p class="blog__short-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed d Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed d Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed d</p>
+      					<a href="#" class="blog__button" aria-label="Read the whole article"></a>
+      				</li>
+      				<li class="blog__item">
+      					<p class="blog__label blog__label--popular">Popular</p>
+      					<img src="img/article-image2.jpg" alt="" class="blog__image" width="242" height="161">
+      					<p class="blog__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed d</p>
+      					<p class="blog__short-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed d Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed d Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed d</p>
+      					<a href="#" class="blog__button" aria-label="Read the whole article"></a>
+      				</li>
+      			</ul>	
+      		</div>
+      		<div class="blog__form">
+      			<p class="blog__form-question">Want to stay up to date about i-marketing?</p>
+      			<p class="blog__form-text">Insert your email bellow and we'll keep you informed</p>
+      			<form method="post"
+        		enctype="multipart/form-data"
+        		action="https:"
+        		autocomplete="off" class="blog__subscribe">
+      				<ul>
+	      				<li class="text-input blog-form__input-wrap">
+		                  <input type="e-mail" class="text-input__input" name="email" id="blog-form__email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+		                  <label for="blog-form__email" class="text-input__label"></label>
+	                	</li>
+			                <li class="input-btn">
+		                    <input class="input-btn__input visually-hidden input-btn__input--radio" name="policy" value="private-policy" type="radio" id="private-policy" checked>
+		                    <label class="input-btn__label input-btn__label--radio" for="private-policy">I accept the terms of the <a href="">private policy</a></label>
+		                  </li>
+		            	</ul>
+		            	<button class="blog__submit-btn submit-btn" type="submit">Subscribe</button>
+      			</form>
+      		</div>
+      	</div>
+      </section>
+    </main>
+    <footer class="footer">
+    	<ul class="footer__menu">
+    		<li class="footer__menu-item">Home</li>
+    		<li class="footer__menu-item">Blog</li>
+    		<li class="footer__menu-item">Contacts</li>
+    		<li class="footer__menu-item">Terms of Use</li>
+    		<li class="footer__menu-item">Private Policy</li>
+    	</ul>
+    	<ul class="footer__menu">
+    		<li class="footer__menu-item">Web/Landing Page</li>
+    		<li class="footer__menu-item">Inbound Marketing</li>
+    		<li class="footer__menu-item">Social Media</li>
+    		<li class="footer__menu-item">Google AdWords</li>
+    		<li class="footer__menu-item">E-mail marketing</li>
+    		<li class="footer__menu-item">Social Mirror App</li>
+    	</ul>
+    		<a href="#" class="footer__push-link" aria-label="Push on a Surprise Link"></a>
+    		<div class="footer__social social">
+    			<p class="social__text">We are Social.<br>Discount for our friends</p>
+    			<ul class="social__list">
+    				<li class="social__item"><a href="" aria-label="Visit out Facebook page" class="social__link social__link--facebook"></a></li>
+    				<li class="social__item"><a href="" aria-label="Visit out Twitter page" class="social__link social__link--twitter"></a></li>
+    				<li class="social__item"><a href="" aria-label="Visit out Linkedin page" class="social__link social__link--linkedin"></a></li>
+    				<li class="social__item"><a href="" aria-label="Visit out Instagram page" class="social__link social__link--instagram"></a></li>
+    				<li class="social__item"><a href="" aria-label="Visit out Telegram channel" class="social__link social__link--telegram"></a></li>
+    			</ul>
+    			<p class="social__star">*Learn more about discount from our managers</p>
+        </div>
+        <div class="footer__copyright copyright">
+          <a class="copyright__email" href=mailto:hello@social-mirror.com?subject=Request from web site - social-mirror.com">E-mail: hello@social-mirror.com</a>
+          <p class="copyright__text">Made with <span></span> in <a href="http://social-mirror.com">social-mirror.com</a></p>
+    </footer>
 	
 </body>
 </html>
